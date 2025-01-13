@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header_conteiner {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
+    align-items: center;
+}
+
+.logo_serch {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header_logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.velua {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.srch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo_span {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #000;
+}
+
+.header_serch {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.log_in {
+    padding: 14px;
+    border: 1px solid #D5D7DA;
+    background-color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 14px;
+    color: #414651;
+}
+
+.sing_up {
+    padding: 14px;
+    background-color: #7F56D9;
+    border-radius: 8px;
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/*main*/
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 96px;
+
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.main_container {
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.start {
+    vertical-align: middle;
+}
+
+.title_p {
+    color: #535862;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 768px;
+}
+
+h1 {
+    color: #181d27;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+}
+
+.title_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #D5D7DA;
+    border-radius: 10px;
+    padding: 8px 12px;
+}
+
+.wertili_span {
+    color: #414651;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.img_iphone {
+    width: 883px;
+}
+
+.gilakebi_box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.Features_span {
+    color: #6941c6;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Features_h {
+    color: #181d27;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.Features_p {
+    color: #535862;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Features_div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.gilaki_div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.gilaki {
+    padding: 12px;
+    width: 48px;
+    border: 1px solid #E9EAEB;
+    border-radius: 10px;
+    align-items: center;
+}
+
+h3 {
+    color: #181d27;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.gilaki_p {
+    color: #535862;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.gilakebi_check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.info_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.plan_box {
+    display: flex;
+    flex-direction: column;
+    width: 496px;
+    align-items: center;
+    border: 1px solid #E9EAEB;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.plan_title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon_Plan {
+    width: 48px;
+    padding: 12px;
+    align-items: center;
+    background: #F4EBFF;
+    border-radius: 9999px;
+}
+
+.plan_span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6941c6;
+}
+
+h4 {
+    color: #181d27;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.plan_p {
+    color: #535853;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.check_box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #E9EAEB;
+    width: 100%;
+}
+
+.chack_info {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.check_p {
+    color: #535853;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.started {
+    border-radius: 8px;
+    padding: 12px 18px;
+    border: 0;
+    background-color: #7F56D9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    width: 432px;
+}
+
+.women_conteiner {
+    background-color: #53389E;
+    display: flex;
+    border-radius: 24px;
+    justify-content: space-between;
+}
+
+
+
+.biutiful {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    height: auto;
+    width: 480px;
+
+}
+
+.women_histori {
+    padding: 50px;
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: start;
+
+}
+
+.star {
+    width: 20px;
+}
+
+.histori_span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.margarita_histori {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.wre_conteiner {
+    display: flex;
+    justify-content: start;
+}
+
+.histori_p {
+    color: #E9EAEB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.wre {
+    width: 10px;
+    border-radius: 9999px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.fotter_conteiner {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.fotter_link {
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #535862;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.footer_span {
+    color: #717680;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
